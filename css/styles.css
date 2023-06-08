@@ -4,6 +4,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: #434455;
     background-color: #fff;
 }
 
@@ -17,29 +18,18 @@ body {
 
 
 
-.web-logo {}
-
-.logo-part-one {
-    font-family: 'Raleway';
+.web-logo {
+    font-family: 'Raleway' sans-serif;
+    font-weight: 800;
     font-style: normal;
     font-size: 18px;
     line-height: 1.17;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
 }
 
-.logo-part-two {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-size: 18px;
-    line-height: 1.17;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+.logo-studio {
     color: #2E2F42;
 }
 
@@ -53,6 +43,10 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+}
+
+.address {
+    font-style: normal;
 }
 
 .adress-list {}
@@ -69,7 +63,9 @@ body {
 }
 
 .nav-item-text:hover,
-.adress-item-text:hover {
+.nav-item-text:focus,
+.adress-item-text:hover,
+.adress-item-text:focus {
     color: #404BBF;
 }
 
@@ -88,34 +84,27 @@ body {
 }
 
 .top-button {
-    font-family: 'Roboto';
+    font-family: 'Roboto' sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background: #4D5AE5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    border: 0ch;
+    cursor: pointer;
+
 }
 
-.top-button:hover {
+.top-button:hover,
+.top-button:focus {
     background: #404BBF;
 }
 
 .benefits {}
 
 .hidden-text {
-    position: absolute;
-    width: 1px;
-    height: 1px;
     margin: -1px;
-    border: 0;
-    padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -160,7 +149,9 @@ body {
 
 
 
-.team {}
+.team {
+    background-color: #F4F4FD
+}
 
 .team-title {
     font-weight: 700;
@@ -174,7 +165,9 @@ body {
 
 .team-list {}
 
-.team-list-item {}
+.team-list-item {
+    background-color: #FFFFFF
+}
 
 .team-item-title {
     font-weight: 500;
@@ -199,7 +192,7 @@ body {
     background-color: #2E2F42;
 }
 
-footer [class="logo-part-two"] {
+footer [class="logo-studio"] {
     color: #F4F4FD;
 }
 
@@ -215,26 +208,22 @@ footer [class="logo-part-two"] {
 .filtr {}
 
 .filtr-button {
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: 'Roboto' sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
     color: #4D5AE5;
     background-color: #F4F4FD;
-    border: 1px solid #E7E9FC;
-    border-radius: 4px;
+    cursor: pointer;
+
 }
 
 .filtr-button:hover {
     color: #fff;
     background: #404BBF;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
+
 }
 
 .button {}
