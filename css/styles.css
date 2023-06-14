@@ -19,7 +19,7 @@ body {
 
 
 .web-logo {
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-style: normal;
     font-size: 18px;
@@ -84,7 +84,7 @@ body {
 }
 
 .top-button {
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -208,7 +208,7 @@ footer [class="logo-studio"] {
 .filtr {}
 
 .filtr-button {
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -220,7 +220,8 @@ footer [class="logo-studio"] {
 
 }
 
-.filtr-button:hover {
+.filtr-button:hover,
+.filtr-button:focus {
     color: #fff;
     background: #404BBF;
 
